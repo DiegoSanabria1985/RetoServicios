@@ -1,11 +1,21 @@
 #language: es
 
-Característica: Utilizar un servicio POST perdida de mascota
+Característica: Usar un servicio POST de perdida de mascota
 
-@regression1
-Escenario registra la perdida de su mascota
-Cuando Diego envia información al para el end point "http://swagger.io/store/order"
+  @regression1
+  Escenario: Registrar la perdida de una mascota
 
-Entonces Se valida que el servicio es correcto cuando devuelve 301
+    Cuando Diego envia la información a la url "http://swagger.io/store/order"
 
-  Y Se valida que el servicio es correcto
+  |id      | 13245 |
+  |petId   | 2345 |
+  |quantity| 2 |
+  |shipDate| 2021-07-12T21:17:57.410Z|
+  |status  |placed |
+  |complete| true |
+
+
+    Entonces Se valida el servico 200
+
+    Y se analiza la información
+
