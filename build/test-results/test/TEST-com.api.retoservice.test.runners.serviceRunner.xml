@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.api.retoservice.test.runners.serviceplaceRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="SQAT1MDEWIN63" time="0.0">
+<testsuite name="com.api.retoservice.test.runners.serviceRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="SQAT1MDEWIN63" time="0.0">
   <properties/>
   <system-out><![CDATA[
-1 Scenarios (?[33m1 undefined?[0m)
-3 Steps (?[33m3 undefined?[0m)
-0m0,696s
-
-
-You can implement missing steps with the snippets below:
-
-
-@Cuando("^Diego envia la información a la url \"([^\"]*)\"$")
-public void diegoEnviaLaInformaciónALaUrl(String arg1, DataTable arg2) {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-    // E,K,V must be a scalar (String, Integer, Date, enum etc).
-    // Field names for YourType must match the column names in 
-    // your feature file (except for spaces and capitalization).
-    throw new PendingException();
-}
-
-@Entonces("^Se valida el servico (\\d+)$")
-public void seValidaElServico(int arg1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Entonces("^se analiza la información$")
-public void seAnalizaLaInformación() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
+1 Scenarios (?[32m1 passed?[0m)
+2 Steps (?[32m2 passed?[0m)
+0m8,894s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
@@ -51,7 +24,7 @@ public void seAnalizaLaInformación() {
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Usar un servicio POST de perdida de mascota
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Utilizar un servicio POST para crear usuario
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
@@ -60,7 +33,7 @@ public void seAnalizaLaInformación() {
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
                                                                   
 
-TEST STARTED: Registrar la perdida de una mascota
--------------------------------------------------------------------(usar-un-servicio-post-de-perdida-de-mascota;registrar-la-perdida-de-una-mascota)
+TEST STARTED: enviar información para crear usuario
+-------------------------------------------------------------------(utilizar-un-servicio-post-para-crear-usuario;enviar-información-para-crear-usuario)
 ]]></system-err>
 </testsuite>

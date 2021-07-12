@@ -2,7 +2,7 @@
 
 Característica: Usar un servicio POST de perdida de mascota
 
-  @regression1
+  @regression
   Escenario: Registrar la perdida de una mascota
 
     Cuando Diego envia la información a la url "http://swagger.io/store/order"
@@ -15,7 +15,7 @@ Característica: Usar un servicio POST de perdida de mascota
   |complete| true |
 
 
-    Entonces Se valida el servico 200
+    Entonces Se valida el servico 301
 
-    Y se analiza la información
+
 

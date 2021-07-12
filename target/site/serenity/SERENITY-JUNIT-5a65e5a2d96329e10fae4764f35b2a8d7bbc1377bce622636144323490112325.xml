@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Utilizar un servicio POST para crear usuario" skipped="0" tests="1" time="7.74" timestamp="2021-07-12 06:22:48"><testcase name="enviar información para crear usuario"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Utilizar un servicio POST para crear usuario" skipped="0" tests="1" time="8.33" timestamp="2021-07-12 06:43:49"><testcase name="enviar información para crear usuario"/></testsuite>

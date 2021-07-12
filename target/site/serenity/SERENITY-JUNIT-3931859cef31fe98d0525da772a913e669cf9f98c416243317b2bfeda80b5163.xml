@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Usar un servicio POST de perdida de mascota" skipped="1" tests="1" time="0.16" timestamp="2021-07-12 06:23:55"><testcase name="Registrar la perdida de una mascota"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Usar un servicio POST de perdida de mascota" skipped="0" tests="1" time="8.49" timestamp="2021-07-12 06:43:26"><testcase name="Registrar la perdida de una mascota"/></testsuite>

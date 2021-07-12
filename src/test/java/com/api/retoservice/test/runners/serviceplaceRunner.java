@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/com.api.retoservice.feature/Place.feature",
-        glue = "com.api.retoservice.test.stepdefinitions1",
+        glue = "com.api.retoservice.test.stepdefinitions",
         snippets = SnippetType.CAMELCASE,
-        tags = "@regression1")
+        tags = "@regression")
 public class serviceplaceRunner {
 }
