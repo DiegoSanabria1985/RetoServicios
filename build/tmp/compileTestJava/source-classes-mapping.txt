@@ -1,0 +1,8 @@
+com/api/retoservice/test/stepdefinitions/serviceStepdefinitions.java
+ com.api.retoservice.test.stepdefinitions.serviceStepdefinitions
+com/api/retoservice/test/runners/serviceRunner.java
+ com.api.retoservice.test.runners.serviceRunner
+com/api/retoservice/test/runners/serviceplaceRunner.java
+ com.api.retoservice.test.runners.serviceplaceRunner
+com/api/retoservice/test/stepdefinitions/placeStepdefinitions.java
+ com.api.retoservice.test.stepdefinitions.placeStepdefinitions

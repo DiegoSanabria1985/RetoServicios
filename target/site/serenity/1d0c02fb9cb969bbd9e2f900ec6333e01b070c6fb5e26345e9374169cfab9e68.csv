@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Utilizar un servicio POST","crear un usuario","SUCCESS","2021-07-12T16:11:26.35-05:00[America/Bogota]","0.0","8.61"
+"Utilizar un servicio POST perdida de mascota","registrar perdida de una mascota","PENDING","2021-07-12T16:59:19.084-05:00[America/Bogota]","0.0","0.13"
+"Utilizar un servicio POST para crear usuario","enviar información para crear usuario","SUCCESS","2021-07-12T17:26:31.641-05:00[America/Bogota]","0.0","7.49"
